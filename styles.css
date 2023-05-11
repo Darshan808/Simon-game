@@ -1,0 +1,52 @@
+
+/* Default Display */
+
+body{
+    background-color: #011F3F;
+    color: #FEF2BF;
+    text-align: center;
+}
+
+.heading{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin-top: 2%;
+}
+.button{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: solid 10px black;
+    border-radius: 20%;
+    margin: 2%;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+/*Buttons during game */
+
+.flash{
+    opacity: 0.1;
+}
+
+.press{
+    opacity: 0.5;
+    box-shadow: 0 0 0.5rem 0.5rem white;
+}
+
+
+/* Wrong Answer */
+
+.game-over{
+    background-color: red;
+}
